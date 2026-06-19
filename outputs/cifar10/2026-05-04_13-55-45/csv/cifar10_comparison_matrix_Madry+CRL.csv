@@ -1,0 +1,2 @@
+method,clean_acc,pgd10_acc,ece_clean,ece_adv
+Madry + CRL,0.9059,0.7717,0.01792732947915791,0.07176689276099205
