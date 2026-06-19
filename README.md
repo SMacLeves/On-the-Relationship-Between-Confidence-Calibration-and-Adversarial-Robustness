@@ -60,6 +60,9 @@ A CUDA-capable GPU is strongly recommended for adversarial training. The noteboo
 
 ## Running the Experiments
 
+Download data: "cifar10":  "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+                    "cifar100": "https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz",
+
 Open `Thesis.ipynb` and run cells sequentially. Each training block is labelled with the experiment name (e.g. `ERM Baseline`). Outputs (model checkpoints, plots, CSVs) are saved automatically to a timestamped folder under `outputs/cifar10/`.
 
 Key hyperparameters (all in the notebook):
