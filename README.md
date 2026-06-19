@@ -27,21 +27,20 @@ A post-hoc Mahalanobis-distance-based risk layer is additionally evaluated on th
 ## Repository Structure
 
 ```
-├── Thesis.ipynb              # Main experiment notebook (run cells top to bottom)
-├── requirements.txt          # Pythong package requirements
-├── python_files/             # Folder to store python files used in the Thesis.ipynb
-    ├── models.py             # CIFAR-adapted ResNet-18
-    ├── train.py              # Clean training and evaluation loops
-    ├── data.py               # Data loading and normalisation
-    ├── calibration.py        # ECE, reliability diagrams, temperature scaling
-    ├── attacks.py            # PGD attack and adversarial training loops
-    ├── crl.py                # Correctness Ranking Loss training loops
-    └── outputs/              # Generated models, plots, and CSVs (not versioned)
-        └── cifar10/
-            └── 2026-05-04_13-55-45/   # Final experimental run
-                ├── models/
-                ├── plots/
-                └── csv/
+├── Thesis.ipynb          # Main experiment notebook (run cells top to bottom)
+├── requirements.txt      # Pythong package requirements
+├── models.py             # CIFAR-adapted ResNet-18
+├── train.py              # Clean training and evaluation loops
+├── data.py               # Data loading and normalisation
+├── calibration.py        # ECE, reliability diagrams, temperature scaling
+├── attacks.py            # PGD attack and adversarial training loops
+├── crl.py                # Correctness Ranking Loss training loops
+└── outputs/              # Generated models, plots, and CSVs (not versioned)
+    └── cifar10/
+        └── 2026-05-04_13-55-45/   # Final experimental run
+            ├── models/
+            ├── plots/
+            └── csv/
 ```
 
 The `confidence-aware-learning-master/` folder contains the original CRL code by Moon et al(2020), included for reference. It is not used directly by the notebook.
